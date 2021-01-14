@@ -1,0 +1,735 @@
+html,
+body {
+  font-family: "Work Sans", sans-serif;
+}
+
+/* HEADER CSS */
+#header {
+  background-color: #ff4f81;
+  color: white;
+}
+
+#header .header-left i {
+  margin-right: 4px;
+}
+
+#header .header-right i {
+  padding: 8px 10px;
+  background-color: #333;
+  font-size: 14px;
+  margin-left: 5px;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: all 0.5s;
+}
+
+#header .header-right i:hover {
+  background-color: #ff4f81;
+  border: 1px solid white;
+}
+
+/* END HEADER CSS */
+/* NAVBAR CSS */
+.navbar-brand--logo p {
+  color: #ff4f81;
+  font-size: 11px;
+  margin-top: -5px;
+  letter-spacing: 3px;
+  font-weight: bold;
+}
+
+.navbar-brand--logo h2 {
+  font-weight: 800;
+}
+
+#myMenu .navbar-nav--menu {
+  margin-top: -30px;
+}
+
+#myMenu .navbar-nav--menu .nav-item {
+  margin-left: 20px;
+}
+
+#myMenu .navbar-nav--menu .nav-item a.nav-link {
+  font-weight: bold;
+  color: #282828;
+  transition: all 0.5s;
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+#myMenu .navbar-nav--menu .nav-item a.nav-link:hover {
+  color: #ff4f81;
+}
+
+#myMenu .navbar-nav--menu .nav-item .nav-item__line {
+  width: 0%;
+  height: 2px;
+  background-color: #ff4f81;
+  transition: all 0.5s;
+}
+
+#myMenu .navbar-nav--menu .nav-item:hover .nav-item__line {
+  width: 100%;
+}
+
+#myMenu .navbar-nav--menu .active a.nav-link {
+  color: #ff4f81;
+}
+
+#myMenu .navbar-nav--menu .active .nav-item__line {
+  width: 100%;
+}
+
+/* END NAVBAR CSS */
+/* CAROUSEL CSS */
+#carousel-slider .carousel-indicators--config {
+  bottom: 10%;
+}
+
+#carousel-slider .carousel-indicators--config li {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 1px solid #fff;
+  background-clip: border-box;
+}
+
+#carousel-slider .carousel-indicators--config li.active {
+  background-color: white;
+}
+
+#carousel-slider .carousel-caption--config {
+  bottom: 30%;
+}
+
+#carousel-slider .carousel-caption--config h1 {
+  font-weight: normal;
+  font-size: 48px;
+}
+
+#carousel-slider .carousel-caption--config p {
+  letter-spacing: 4px;
+  font-size: 16px;
+  line-height: 30px;
+}
+
+#carousel-slider .carousel-caption--config .btn--read-more {
+  border-radius: 0px;
+  font-size: 14px;
+  padding: 11px 20px;
+  transition: all 0.5s;
+}
+
+#carousel-slider .carousel-caption--config .btn--read-more:hover {
+  background: #ff4f81;
+  border-color: #ff4f81;
+  color: white;
+}
+
+#modal-carousel .modal-header--carousel h1 {
+  font-weight: bold;
+  color: #ff4f81;
+  font-size: 30px;
+  letter-spacing: 1px;
+}
+
+#modal-carousel .modal-body .modal-text {
+  color: #777777;
+  padding: 20px 0;
+  font-size: 15px;
+  line-height: 30px;
+}
+
+/* END CAROUSEL CSS */
+.education {
+  padding: 80px 15px;
+}
+
+.education .education-title h1 {
+  font-weight: 600;
+  color: #ff4f81;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+
+.education .education-title span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+
+.education .education-title .education-title__line {
+  width: 70px;
+  height: 2px;
+  background-color: black;
+}
+
+.education .education-title p {
+  font-size: 15px;
+  color: #999;
+  line-height: 30px;
+  padding: 0 15%;
+}
+
+.education .education-card {
+  padding: 20px;
+}
+
+.education .education-card .education-course i {
+  font-size: 32px;
+}
+
+.education .education-card .education-course h2 {
+  color: #ff4f81;
+  font-size: 28px;
+  font-weight: 600;
+  margin: 15px 0;
+}
+
+.education .education-card .education-course h6 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.education .education-card .education-course p {
+  color: #999;
+  line-height: 28.8px;
+  letter-spacing: 1px;
+}
+
+/* END WELCOM TO EDUCATION CSS */
+/* OUR STATS CSS*/
+.stat-section {
+  height: auto;
+  background: url("../images/banner2.jpg") no-repeat center;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 80px 15px;
+}
+
+.stat-section .stat-title h1 {
+  font-weight: 600;
+  color: #ff4f81;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+
+.stat-section .stat-title span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.stat-section .stat-title .stat-title__line {
+  width: 70px;
+  height: 2px;
+  background-color: black;
+}
+
+.stat-section .stat-number i {
+  font-size: 40px;
+  color: white;
+}
+
+.stat-section .stat-number h3 {
+  color: #ff4f81;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 3px;
+}
+
+.stat-section .stat-number p {
+  font-size: 48px;
+  color: white;
+  font-weight: 100;
+}
+
+/* END OUR STATS CSS */
+/* OFFER CSS */
+.offer {
+  padding: 80px 15px;
+}
+
+.offer .offer-title h1 {
+  font-weight: 600;
+  color: #ff4f81;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+
+.offer .offer-title span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  font-weight: 500;
+}
+
+.offer .offer-title .offer-title__line {
+  width: 70px;
+  height: 2px;
+  background-color: black;
+}
+
+.offer .offer-item {
+  padding: 25px 40px;
+  box-shadow: 0px 1px 8px 0px rgba(158, 158, 158, 0.75);
+  transition: all 0.5s;
+}
+
+.offer .offer-item:hover {
+  background: #12ccc3;
+}
+
+.offer .offer-item i {
+  font-size: 40px;
+  color: #ff4f81;
+}
+
+.offer .offer-item h6 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.offer .offer-item p {
+  font-size: 14px;
+  letter-spacing: 0.5px;
+  color: #6b6b6b;
+  margin-bottom: 0px;
+}
+
+/* END OFFER CSS */
+.testimonials-section {
+  background: url("../images/banner3.jpg") no-repeat center;
+  height: auto;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 80px 15px;
+}
+
+.testimonials-section .testimonials-title h1 {
+  font-weight: 600;
+  color: #ff4f81;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+
+.testimonials-section .testimonials-title span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  color: #ffffff;
+}
+
+.testimonials-section .testimonials-title .testimonials-title__line {
+  width: 70px;
+  height: 2px;
+  background-color: black;
+}
+
+.testimonials-section .testimonials-slider {
+  height: auto;
+  background-color: rgba(0, 0, 0, 0.47);
+  box-shadow: 0px 1px 7px #8e8e8e;
+  -webkit-box-shadow: 0px 1px 7px #8e8e8e;
+  -o-box-shadow: 0px 1px 7px #8e8e8e;
+  -moz-box-shadow: 0px 1px 7px #8e8e8e;
+  padding: 15px 15px;
+}
+
+.testimonials-section .testimonials-slider .item__box {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 16px 24px;
+  color: white;
+  border-radius: 5px;
+  position: relative;
+}
+
+.testimonials-section .testimonials-slider .item__box::after {
+  content: "";
+  border-top: 9px solid rgba(0, 0, 0, 0.6);
+  border-left: 9px solid transparent;
+  border-right: 9px solid transparent;
+  position: absolute;
+  bottom: -9px;
+  left: 27%;
+}
+
+.testimonials-section .testimonials-slider .item__box p {
+  font-size: 14px;
+  letter-spacing: 1px;
+}
+
+.testimonials-section .testimonials-slider .item__user {
+  color: white;
+  margin-left: 22%;
+}
+
+.testimonials-section .testimonials-slider .item__user img {
+  width: 55px;
+  height: 55px;
+  float: left;
+}
+
+.testimonials-section .testimonials-slider .item__user p {
+  margin-bottom: 0px;
+  font-size: 17px;
+  font-weight: bold;
+}
+
+.testimonials-section .testimonials-slider .item__user span {
+  font-size: 14px;
+  color: #ff4f81;
+}
+
+.owl-theme .owl-dots .owl-dot span {
+  background: #ff4f81;
+}
+
+.owl-theme .owl-dots .owl-dot.active span {
+  background: #ff4f81;
+  opacity: 0.3;
+}
+
+/* NEWS & EVENTS css */
+.news-section {
+  padding: 80px 15px;
+}
+
+.news-section .news-title h1 {
+  font-weight: 600;
+  color: #ff4f81;
+  font-size: 40px;
+  letter-spacing: 0.5px;
+}
+
+.news-section .news-title span {
+  font-size: 17px;
+  letter-spacing: 4px;
+  font-weight: 500;
+  color: black;
+}
+
+.news-section .news-title .news-title__line {
+  width: 70px;
+  height: 2px;
+  background-color: black;
+}
+
+.news-section .event-img img {
+  border: solid #dedede;
+}
+
+.news-section .event-info h5 {
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.news-section .event-info h5:hover {
+  color: #ff4f81;
+}
+
+.news-section .event-info h6 {
+  color: #ff4f81;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-weight: bold;
+}
+
+.news-section .event-info p {
+  font-size: 14px;
+  color: #999999;
+  letter-spacing: 1px;
+  line-height: 30px;
+}
+
+/* end NEWS & EVENTS css */
+/* FOOTER CSS */
+/* .footer {
+    background-color: #141415;
+    padding: 60px 15px; */
+.footer__content {
+  background-color: #141415;
+  padding: 60px 15px;
+}
+
+.footer__content .footer__about-us h2 {
+  color: #ff4f81;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footer__content .footer__about-us p {
+  color: #8b8b96;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+.footer__content .footer__news h2 {
+  color: #ff4f81;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footer__content .footer__news p {
+  color: #8b8b96;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+.footer__content .footer__news p i {
+  color: #ff4f81;
+}
+
+.footer__content .footer__news p span {
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.footer__content .footer__news p span:hover {
+  color: white;
+}
+
+.footer__content .footer__contact h2 {
+  color: #ff4f81;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footer__content .footer__contact p {
+  color: #8b8b96;
+  font-size: 14px;
+  line-height: 32px;
+  letter-spacing: 1px;
+}
+
+.footer__content .footer__contact p i {
+  width: 30px;
+  height: 30px;
+  border: 1px solid #4b4b50;
+  color: white;
+  text-align: center;
+  padding-top: 5px;
+}
+
+.footer__content .footer__form h2 {
+  color: #ff4f81;
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.footer__content .footer__form form {
+  display: flex;
+}
+
+.footer__content .footer__form form input {
+  width: 70%;
+  height: 48px;
+  border-radius: 0px;
+  font-size: 14px;
+  padding: 14px;
+  letter-spacing: 1px;
+  outline: none;
+}
+
+.footer__content .footer__form form .btn-footer {
+  width: 20%;
+  background-color: #ff4f81;
+  outline: none;
+  padding: 12px 0;
+  border-radius: 0px;
+  color: #fff;
+  letter-spacing: 1px;
+  border: transparent;
+}
+
+.footer__content .footer__form form .btn-footer:hover {
+  background-color: #ec1955;
+}
+
+.copy-right {
+  background: #0f0f10;
+  color: #fff;
+}
+
+.copy-right p {
+  letter-spacing: 2px;
+  margin-bottom: 0px;
+  font-size: 14px;
+}
+
+.copy-right span {
+  color: #ff4f81;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.copy-right span:hover {
+  color: white;
+}
+
+/* END FOOTER CSS */
+/* MEDIA QUERY */
+@media screen and (max-width: 991px) {
+  .stat-section .stat-number {
+    margin-bottom: 30px;
+  }
+  .offer .offer-item i {
+    font-size: 30px;
+    color: #ff4f81;
+  }
+  .offer .offer-item h6 {
+    font-size: 15px;
+    font-weight: 300;
+  }
+  .offer .offer-item p {
+    font-size: 13px;
+    letter-spacing: 0.5px;
+    color: #6b6b6b;
+    margin-bottom: 0px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .navbar .navbar-brand--logo h2 {
+    font-size: 28px;
+  }
+  #myMenu .navbar-nav--menu .nav-item {
+    margin-left: 8px;
+  }
+  #myMenu .navbar-nav--menu .nav-item a.nav-link {
+    font-size: 12px;
+  }
+  .education .education-card {
+    padding: 0px;
+  }
+  .education .education-card .education-course h2 {
+    font-size: 22px;
+  }
+  .education .education-card .education-course h6 {
+    font-size: 14px;
+  }
+  .footer .footer__content p {
+    margin-bottom: 0px;
+  }
+  .footer .footer__content h2 {
+    font-size: 19px;
+  }
+}
+
+@media screen and (min-width: 769px) and (max-width: 800px) {
+  #carousel-slider .carousel-indicators--config {
+    bottom: 10%;
+  }
+  #carousel-slider .carousel-caption--config h1 {
+    font-size: 32px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  #carousel-slider .carousel-indicators--config {
+    bottom: 10%;
+  }
+  #carousel-slider .carousel-caption--config {
+    bottom: 30%;
+  }
+  #carousel-slider .carousel-caption--config h1 {
+    font-weight: normal;
+    font-size: 32px;
+  }
+  #carousel-slider .carousel-caption--config p {
+    letter-spacing: 1px;
+    font-size: 16px;
+    line-height: 20px;
+    margin-bottom: 5px;
+  }
+  #carousel-slider .carousel-caption--config .btn--read-more {
+    border-radius: 0px;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: all 0.5s;
+  }
+  #carousel-slider .carousel-caption--config .btn--read-more:hover {
+    background: #ff4f81;
+    border-color: #ff4f81;
+    color: white;
+  }
+  .education .education-card {
+    padding: 0px;
+  }
+  .education .education-card .education-course i {
+    font-size: 32px;
+  }
+  .education .education-card .education-course h2 {
+    color: #ff4f81;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 10px 0;
+  }
+  .education .education-card .education-course h6 {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  .education .education-card .education-course p {
+    color: #999;
+    line-height: 20px;
+    letter-spacing: 1px;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  #carousel-slider .carousel-indicators--config {
+    bottom: 0%;
+  }
+  #carousel-slider .carousel-caption--config {
+    bottom: 15%;
+  }
+  #carousel-slider .carousel-caption--config h1 {
+    font-weight: normal;
+    font-size: 25px;
+  }
+  #carousel-slider .carousel-caption--config p {
+    letter-spacing: 1px;
+    font-size: 14px;
+    line-height: 15px;
+    margin-bottom: 5px;
+  }
+  #carousel-slider .carousel-caption--config .btn--read-more {
+    border-radius: 0px;
+    font-size: 14px;
+    padding: 5px 10px;
+    transition: all 0.5s;
+  }
+  #carousel-slider .carousel-caption--config .btn--read-more:hover {
+    background: #ff4f81;
+    border-color: #ff4f81;
+    color: white;
+  }
+  .education .education-title h1 {
+    font-size: 25px;
+  }
+  .education .education-title span {
+    font-size: 14px;
+    letter-spacing: 2px;
+  }
+  .education .education-title .education-title__line {
+    width: 50px;
+  }
+  .education .education-title p {
+    padding: 0 5%;
+  }
+  .news-section .event-info {
+    margin-top: 20px;
+  }
+}
+/*# sourceMappingURL=main.css.map */
